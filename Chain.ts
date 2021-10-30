@@ -1,6 +1,6 @@
 import Block from "./Block"
 
-class BlockChain {
+class Chain {
     blockchain: any // Our Blockchain Object
     constructor() {
         this.blockchain = [this.startGenesisBlock()] // Initialize a new array of blocks, starting with a genesis block
@@ -42,7 +42,7 @@ let a = new Block({from: "Nikita", to: "Masha"})
 let b = new Block({from: "Masha", to: "Helen"})
 
  
-let chain = new BlockChain() // Init our chain
+let chain = new Chain() // Init our chain
 chain.addNewBlock(a) // Add block a
 chain.addNewBlock(b) // Add block b
 console.log(chain) // Print out the blockchain
