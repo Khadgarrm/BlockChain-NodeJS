@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@types/node": "^16.11.6",
+    "crypto": "^1.0.1",
+    "i": "^0.3.7",
+    "node-modules": "^1.0.1",
+    "npm": "^8.1.2",
+    "typescript": "^4.4.4"
+  }
+}
